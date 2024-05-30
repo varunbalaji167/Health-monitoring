@@ -1,4 +1,4 @@
-#forgetPassword{
+#forg0tPassword{
     text-decoration: none;
     color: black;
 }
@@ -7,6 +7,6 @@
     display: flex;
     justify-content: space-between;
 }
-#forgetPassword{
+#forgotPassword{
     color: beige;
 }
