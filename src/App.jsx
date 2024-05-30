@@ -7,13 +7,36 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import Login from './components/Login'
 import Signup from './components/Signup'
+import Doctor from './components/Doctor'
+import Dataentry from './components/Dataentry'
+import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 
 
 function App() {
+  
+
+  const router=createBrowserRouter([
+    {
+      path:'/signup',
+      element:<Signup/>
+    },
+    {
+      path:'/login',
+      element:<Login/>
+    },
+    {
+      path:'/doctor',
+      element:<Doctor/>
+    },
+    {
+      path:'/nurse',
+      element:<Dataentry/>
+    },
+  ])
 
   return (
     <>
-    <Login/>
+    <RouterProvider router={router} />
     </>
   )
 }
