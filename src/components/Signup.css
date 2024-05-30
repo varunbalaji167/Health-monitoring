@@ -1,0 +1,49 @@
+.Container{
+    width:400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(136, 136, 140);
+}
+.inputBox{
+    display:flex;
+    width:280px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin: 20px;
+
+}
+::placeholder{
+    color: bisque;
+}
+input{
+        background: transparent;
+        border: none;
+        font-size:medium;
+        color: white;
+}
+.containr{
+    margin-top: 50px;
+}
+.btn-primary{
+    margin-top: 20px;
+    width: 200px;
+}
+.existAccount{
+    margin-top: 5px;
+}
+
+.linkLogin{
+    text-decoration: none;
+    color: beige;
+}
+
+center{
+    background-color: rgb(203, 210, 210);
+    border: hidden;
+    border-radius: 20px;
+}
+h1{
+    font-size: xx-large;
+    padding-top: 10px;
+}

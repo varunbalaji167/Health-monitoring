@@ -1,0 +1,12 @@
+#forgetPassword{
+    text-decoration: none;
+    color: black;
+}
+.rem-for{
+    width:280px;
+    display: flex;
+    justify-content: space-between;
+}
+#forgetPassword{
+    color: beige;
+}
