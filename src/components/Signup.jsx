@@ -16,7 +16,8 @@ const Signup = () => {
   const [role, setRole] = useState("")
   const navigate=useNavigate();
   const checkpassword=()=>{
-    if(password===cpassword){
+    if(username !== "" && email !== "" && password !== ""){
+    if(password===cpassword ){
       console.log(username,password,cpassword,email,role)
       alert("Your account got created");
       if(role==="doctor"){
@@ -24,14 +25,14 @@ const Signup = () => {
       if(role==="nurse"){
         navigate("/nurse")
       }
-    }
+    }}
     else{
-      alert("Your password and confirm password didn't match")
+      alert("Can't register and enter details properly")
       console.log(username,password,cpassword,email,role)
       
     }
   }
-  return (<center>
+  return (<><center>
     <div className="logo"><h1><FontAwesomeIcon icon={faNotesMedical} /></h1></div>
     <div className="Container">
       <div className="title"><h1>Sign Up</h1></div>
@@ -53,7 +54,18 @@ const Signup = () => {
           <FontAwesomeIcon icon={faEnvelope} />
         </div>
         <div className="inputBox">
-          <input type="text" placeholder="Role" name="Role" value={role}onChange={(e)=>{setRole(e.target.value)}}></input>
+            <select
+            className="occp"
+              name="Role"
+              value={role}
+              onChange={(e) => {
+                setRole(e.target.value);
+              }}
+            >
+              <option value="">Occupation</option>
+              <option value="doctor">Doctor</option>
+              <option value="nurse">Nurse</option>
+            </select>
           <FontAwesomeIcon icon={faSuitcaseMedical} />
         </div>
         <button className="btn btn-primary" type="button" onClick={checkpassword}>Register</button>
@@ -61,6 +73,7 @@ const Signup = () => {
       </div>
     </div>
     </center>
+    </>
   )
 }
 

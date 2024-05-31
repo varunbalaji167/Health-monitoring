@@ -1,9 +1,15 @@
 #forgotPassword{
     text-decoration: none;
-    color: beige;
+    color:  rgb(183, 164, 141);
 }
 .rem-for{
     width:280px;
     display: flex;
     justify-content: space-between;
+}
+.rem{
+    color:  rgb(223, 216, 208);;
+}
+.existAccount{
+    color: rgb(223, 216, 208);;
 }

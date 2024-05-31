@@ -10,6 +10,7 @@ const Login = () => {
   const [password, setPassword] = useState("")
 
   const printdata=()=>{
+    
     console.log(username,password);
     alert("You are logged in!!")
   }

@@ -1,9 +1,13 @@
+
 .Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width:400px;
     height: 500px;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: rgb(136, 136, 140);
+    background-color: rgb(85, 85, 128);
 }
 .inputBox{
     display:flex;
@@ -14,13 +18,13 @@
 
 }
 ::placeholder{
-    color: bisque;
+    color: rgb(183, 164, 141);
 }
 input{
         background: transparent;
         border: none;
         font-size:medium;
-        color: white;
+        color:  rgb(183, 164, 141);
 }
 .containr{
     margin-top: 50px;
@@ -35,15 +39,33 @@ input{
 
 .linkLogin{
     text-decoration: none;
-    color: beige;
+    color:  rgb(183, 164, 141);
 }
 
-center{
-    background-color: rgb(203, 210, 210);
-    border: hidden;
-    border-radius: 20px;
-}
+
 h1{
     font-size: xx-large;
     padding-top: 10px;
+}
+center{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+body{
+    width:100%;
+    background-image: url('./img/pexels-pixabay-235985.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+}
+.occp{
+    border: hidden;
+    border-radius: 4px;
+    background-color:  rgb(85, 85, 128);
+    color:  rgb(183, 164, 141);;
 }

@@ -8,6 +8,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import Login from './components/Login'
 import Signup from './components/Signup'
 import Doctor from './components/Doctor'
+import Home from './components/Home'
 import Dataentry from './components/Dataentry'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 
@@ -32,6 +33,10 @@ function App() {
       path:'/nurse',
       element:<Dataentry/>
     },
+    {
+      path:'/',
+      element:<Home/>
+    }
   ])
 
   return (
