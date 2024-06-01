@@ -1,71 +1,70 @@
-
-.Container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:400px;
-    height: 500px;
-    border: 2px solid black;
-    border-radius: 20px;
-    background-color: rgb(85, 85, 128);
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  border: 2px solid rgba(48, 141, 234, 0.831);
+  border-radius: 20px;
+  background: rgb(91, 159, 231);
 }
-.inputBox{
-    display:flex;
-    width:280px;
-    justify-content: space-between;
-    border-bottom: 2px solid black;
-    margin: 20px;
-
+.inputBox {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin: 20px;
 }
-::placeholder{
-    color: rgb(183, 164, 141);
+::placeholder {
+  color: black;
 }
-input{
-        background: transparent;
-        border: none;
-        font-size:medium;
-        color:  rgb(183, 164, 141);
+input {
+  background: transparent;
+  border: none;
+  font-size: medium;
+  color: black;
 }
-.containr{
-    margin-top: 50px;
+.containr {
+  margin-top: 50px;
 }
-.btn-primary{
-    margin-top: 20px;
-    width: 200px;
+.btn-primary {
+  margin-top: 20px;
+  width: 200px;
 }
-.existAccount{
-    margin-top: 5px;
+.existAccount {
+  margin-top: 5px;
 }
 
-.linkLogin{
-    text-decoration: none;
-    color:  rgb(183, 164, 141);
+.linkLogin {
+  text-decoration: none;
+  color: black;
 }
 
+h1 {
+  font-size: xx-large;
+  padding-top: 10px;
+}
+center {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  width: 100%;
+  background-image: url("./img/Bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.occp {
+  border: hidden;
+  border-radius: 4px;
+  background: transparent;
+  color: black;
+}
 
-h1{
-    font-size: xx-large;
-    padding-top: 10px;
-}
-center{
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-body{
-    width:100%;
-    background-image: url('./img/pexels-pixabay-235985.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment:scroll;
-}
-.occp{
-    border: hidden;
-    border-radius: 4px;
-    background-color:  rgb(85, 85, 128);
-    color:  rgb(183, 164, 141);;
+select {
+  background: transparent;
 }
