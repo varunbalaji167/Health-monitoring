@@ -64,3 +64,17 @@ body {
   background: transparent;
   color: black;
 }
+
+center {
+  background-color: rgb(203, 210, 210);
+  border: hidden;
+  border-radius: 20px;
+}
+h1 {
+  font-size: xx-large;
+  padding-top: 10px;
+}
+
+select {
+  background: transparent;
+}
